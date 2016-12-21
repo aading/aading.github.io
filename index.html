@@ -1,40 +1,20 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Aading.GitHub.io by aading</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Aading.GitHub.io</h1>
-        <p>My main page</p>
-        <p class="view"><a href="https://github.com/aading">View the Project on GitHub <small>aading</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/aading/aading.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a id="aadinggithubio" class="anchor" href="#aadinggithubio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>aading.github.io</h1>
-
-<p>My main page</p>
-      </section>
-    </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+<div class="row">
+	<div class="col-md-9 rightBorder">
+		{% include section_intro.html %}
+		{% include section_skills.html %}
+		{% include section_workexperience.html %}
+		{% include section_education.html %}
+		{% include section_coursera.html %}
+		{% include section_github.html %}
+		{% include section_mobileapps.html %}
+		{% include section_additionalinfo.html %}
+	</div>
+	<div class="col-md-3">
+		{% include section_stackoverflow.html %}
+		{% include section_blogs.html %}
+	</div>
+</div>
